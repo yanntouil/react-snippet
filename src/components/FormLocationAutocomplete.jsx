@@ -195,7 +195,7 @@ const FormLocationAutocomplete = ({ location = '', setLocation = () => {}, setEr
                         onFocus={closeDropdown}
                     >
                         <span 
-                            className={`${(geolocation === 'pendding') ? 'text-sky-500 animate-pulse' : (geolocation === 'off') ? 'text-neutral-500' : (geolocation === 'on') ? 'text-lime-500' : 'text-red-500'}`}
+                            className={`${(geolocation === 'pending') ? 'text-sky-500 animate-pulse' : (geolocation === 'off') ? 'text-neutral-500' : (geolocation === 'on') ? 'text-lime-500' : 'text-red-500'}`}
                             aria-hidden="true"
                         >
                             {(geolocation === 'disabled' || geolocation === 'permission-denied') ? (
